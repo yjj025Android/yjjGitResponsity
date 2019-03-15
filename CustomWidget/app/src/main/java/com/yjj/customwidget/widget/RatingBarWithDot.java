@@ -207,10 +207,4 @@ public class RatingBarWithDot extends View {
         void onChange(double stars);
     }
 
-    //    @Override
-//    protected void onFinishInflate() {
-//        super.onFinishInflate();
-//        filledStar = null;
-//        emptyStar = null;
-//    }
 }
