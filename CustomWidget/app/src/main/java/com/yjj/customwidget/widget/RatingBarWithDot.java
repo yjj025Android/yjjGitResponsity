@@ -14,12 +14,23 @@ import com.yjj.customwidget.R;
 
 import java.util.logging.Logger;
 
+/**
+ *
+ * 支持自定义item图片、item宽高、item间隔
+ * ratingbar小数点支持，精确到double
+ *
+ * **/
 public class RatingBarWithDot extends View {
 
+    // item 选中个数
     private double mStars;
+    // item 总数
     private int max;
+    // item 间隔
     private int padding;
+    // item 宽高
     private int itemWidth,itemHeight;
+    // item 选中和默认图片
     private Bitmap filledStar,emptyStar;
     private boolean isMiddle = true;
 
