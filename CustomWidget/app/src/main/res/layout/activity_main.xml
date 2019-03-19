@@ -68,40 +68,13 @@
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="10dp"
                 android:background="@drawable/bg_white_slide_red_r5"/>
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="我是notice我是notice我是notice"
-                android:padding="3dp"
-                android:layout_marginLeft="10dp"
-                android:layout_marginTop="10dp"
-                android:background="@drawable/bg_white_slide_red_r5"/>
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="我是notice我是notice"
-                android:padding="3dp"
-                android:layout_marginLeft="10dp"
-                android:layout_marginTop="10dp"
-                android:background="@drawable/bg_white_slide_red_r5"/>
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="我是notice"
-                android:layout_marginLeft="10dp"
-                android:layout_marginTop="10dp"
-                android:padding="3dp"
-                android:background="@drawable/bg_white_slide_red_r5"/>
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="我是notice"
-                android:layout_marginLeft="10dp"
-                android:layout_marginTop="10dp"
-                android:padding="3dp"
-                android:background="@drawable/bg_white_slide_red_r5"/>
 
         </com.yjj.customwidget.widget.ChangeLineLinear>
+
+        <com.yjj.customwidget.widget.Banner
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:id="@+id/banner"/>
 
     </LinearLayout>
 </android.support.design.widget.CoordinatorLayout>
