@@ -70,6 +70,8 @@ public class RatingBarWithDot extends View {
 
         mStars = array.getFloat(R.styleable.RatingBarWithDot_stars, 0);
 
+        array.recycle();
+
         setStars(mStars);
 
     }
