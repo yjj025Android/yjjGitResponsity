@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="RoundSeekBar">
+        <attr name="sRadius" format="dimension"/>
+        <attr name="iconVisible" format="boolean"/>
+    </declare-styleable>
+</resources>
