@@ -1,0 +1,13 @@
+1、打基准包出现Unable to instantiate application com.example.tinkerdemo2.SampleApplication问题
+产生原因：loader = [
+                    //use sample, let BaseBuildInfo unchangeable with tinker
+                    "com.example.tinkerdemo2.SampleApplication"
+            ]这边需要修改为tinker自动生成的Application的路径，没仔细看官方文档
+
+2、打补丁包出现java.io.FileNotFoundException: app\build\intermediates\tinker_intermediates\values_backup
+根据github上的issue：https://github.com/Tencent/tinker/issues/961 
+解决办法：打完基准包后，备份基准包的三个文件，clean工程，build下按照正确路径粘贴基准包的三个文件，打包补丁包
+
+
+测试包路径./testApks
+			
